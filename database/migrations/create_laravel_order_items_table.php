@@ -10,7 +10,10 @@ return new class extends Migration
     {
         Schema::create('laravel_order_items', function (Blueprint $table) {
             $table->id();
-
+            $table->foreignIdFor(config('order.order_model'))->constrained();
+            $table->decimal('price', 11);
+            $table->string('status');
+            $table->text('note')->nullable();
 
             $table->timestamps();
         });
