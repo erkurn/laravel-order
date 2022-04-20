@@ -1,0 +1,57 @@
+{
+    "name": "erkurn/laravel-orders",
+    "description": "Laravel Order Management",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rezza Kurniawan",
+            "email": "rezza.kurniawan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "nunomaduro/collision": "^6.0",
+        "nunomaduro/larastan": "^2.0.1",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Erkurn\\LaravelOrder\\": "src",
+            "Erkurn\\LaravelOrder\\Database\\Factories\\": "database/factories"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Erkurn\\LaravelOrder\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Erkurn\\LaravelOrder\\SkeletonServiceProvider"
+            ],
+            "aliases": {
+                "Skeleton": "Erkurn\\LaravelOrder\\Facades\\Skeleton"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
