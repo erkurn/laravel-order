@@ -6,11 +6,11 @@ use Illuminate\Support\ServiceProvider;
 
 class LaravelOrderServiceProvider extends ServiceProvider
 {
-
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/order.php', 'order'
+            __DIR__.'/../config/order.php',
+            'order'
         );
     }
 
