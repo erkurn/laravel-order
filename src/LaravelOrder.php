@@ -1,8 +1,7 @@
 <?php
-namespace Erkurn\LaravelOrder;
 
+namespace Erkurn\LaravelOrder;
 
 class LaravelOrder
 {
-
 }

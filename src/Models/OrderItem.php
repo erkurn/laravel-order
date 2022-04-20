@@ -9,7 +9,7 @@ class OrderItem extends Model
 {
     public $guarded = [];
 
-    public function order() : BelongsTo
+    public function order(): BelongsTo
     {
         return $this->belongsTo(Order::class);
     }
