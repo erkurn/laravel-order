@@ -3,10 +3,10 @@
 
 # Laravel Order
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/erkurn/laravel-order.svg?style=flat-square)](https://packagist.org/packages/erkurn/laravel-order)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/erkurn/laravel-orders.svg?style=flat-square)](https://packagist.org/packages/erkurn/laravel-order)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/erkurn/laravel-order/run-tests?label=tests)](https://github.com/erkurn/laravel-order/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/erkurn/laravel-order/Check%20&%20fix%20styling?label=code%20style)](https://github.com/erkurn/laravel-order/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/erkurn/laravel-order.svg?style=flat-square)](https://packagist.org/packages/erkurn/laravel-order)
+[![Total Downloads](https://img.shields.io/packagist/dt/erkurn/laravel-orders.svg?style=flat-square)](https://packagist.org/packages/erkurn/laravel-order)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
